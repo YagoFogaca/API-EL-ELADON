@@ -1,0 +1,77 @@
+<mxfile host="65bd71144e">
+    <diagram id="xfe4_ICotgiVW_ofADsS" name="Página-1">
+        <mxGraphModel dx="258" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="11" style="edgeStyle=none;html=1;fontSize=18;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.18;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="30" y="-10" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="20" y="305"/>
+                            <mxPoint x="20" y="165"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Cliente&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="260" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;fontSize=18;" edge="1" parent="1" source="6" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;fontSize=18;" edge="1" parent="1" source="6" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Servidor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="260" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;h1&gt;Requisição&lt;/h1&gt;&lt;div&gt;&lt;font&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Sempre que o &lt;strong class=&quot;r-b88u0q&quot;&gt;cliente&lt;/strong&gt; quiser alguma informação que estiver armazenada na base de dados, ele deve solicitá-la através de uma requisição ao &lt;strong class=&quot;r-b88u0q&quot;&gt;servidor (back-end)&lt;/strong&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="70" width="400" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;h1&gt;Resposta&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;span&gt;É exatamente nesse momento que &lt;/span&gt;&lt;strong class=&quot;r-b88u0q&quot;&gt;servidor&lt;/strong&gt;&lt;span&gt; entra! Quando possuímos alguma informação que valha a pena guardar, recebemos uma solicitação do &lt;/span&gt;&lt;strong class=&quot;r-b88u0q&quot;&gt;cliente&lt;/strong&gt;&lt;span&gt; para armazená-la e certificamos de que ela esteja segura em um banco de dados.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;span&gt;Um &lt;/span&gt;&lt;strong class=&quot;r-b88u0q&quot;&gt;servidor&lt;/strong&gt;&lt;span&gt; geralmente roda em um protocolo de transporte de dados, como o protocolo HTTP (&lt;/span&gt;&lt;em class=&quot;r-36ujnk&quot;&gt;Hyper Text Transfer Protocol&lt;/em&gt;&lt;span&gt;), que se comunica através das placas de rede dos computadores, recebendo &lt;/span&gt;&lt;strong class=&quot;r-b88u0q&quot;&gt;requisições&lt;/strong&gt;&lt;span&gt; e enviando &lt;/span&gt;&lt;strong class=&quot;r-b88u0q&quot;&gt;respostas&lt;/strong&gt;&lt;span&gt; para quem tiver acesso à URL da aplicação back-end.&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;span&gt;Além disso, é na camada do servidor em que a conexão com o banco de dados é feita, pois é nessa camada que conseguimos proteger os dados de acesso como &lt;/span&gt;&lt;code class=&quot;r-1vckr1u r-z2wwpe r-uibjmv r-m2pi6t r-1hvjb8t&quot;&gt;endereço&lt;/code&gt;&lt;span&gt;, &lt;/span&gt;&lt;code class=&quot;r-1vckr1u r-z2wwpe r-uibjmv r-m2pi6t r-1hvjb8t&quot;&gt;usuário&lt;/code&gt;&lt;span&gt; e &lt;/span&gt;&lt;code class=&quot;r-1vckr1u r-z2wwpe r-uibjmv r-m2pi6t r-1hvjb8t&quot;&gt;senha&lt;/code&gt;&lt;span&gt;, uma vez que a camada do cliente (front-end) está exposta e vulnerável.&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="90" width="400" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="240" y="230" width="90" height="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="21" source="2" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="115" y="-25" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="21" source="6" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;h1 style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Requisição&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="21">
+                    <mxGeometry x="15" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bh1%20style%3D%26quot%3Btext-align%3A%20left%26quot%3B%26gt%3B%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2018px%26quot%3B%26gt%3BRequisi%C3%A7%C3%A3o%26lt%3B%2Ffont%26gt%3B%26lt%3B%2Fh1%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D18%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22250%22%20y%3D%22110%22%20width%3D%2260%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="21">
+                    <mxGeometry x="45" y="105" width="20" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Resposta" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="21">
+                    <mxGeometry y="75" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;fontSize=18;" edge="1" parent="1" source="26" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="305" y="780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Banco de Dados" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="610" width="230" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;fontSize=18;" edge="1" parent="1" source="29" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="520" y="845" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="CRUD&lt;br&gt;&lt;br&gt;C = create (criação)&lt;br&gt;R= read (leitura)&lt;br&gt;U= update (atualização)&lt;br&gt;D= delete (exclusão)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="760" width="207.5" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;span&gt;Verbos do Protocolo HTTP&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;POST = create (criação)&lt;/span&gt;&lt;br&gt;&lt;span&gt;GET= read (leitura)&lt;/span&gt;&lt;br&gt;&lt;span&gt;PUT= update (atualização)&lt;/span&gt;&lt;br&gt;&lt;span&gt;DELETE= delete (exclusão)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="760" width="240" height="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
